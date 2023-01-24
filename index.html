@@ -12,7 +12,11 @@
       <a-sphere position="0" radius="0" color="red"></a-sphere>
       <a-cylinder position="0" radius="0" height="0" color="red"></a-cylinder>
       <a-plane position="0" rotation="-90 0 0" width="100" height="20" color="red"></a-plane>
-      
+      video id="videoBunny" preload="auto"
+               src="https://cdn.aframe.io/videos/bunny.mp4"
+               width="160" height="90" autoplay loop="true"
+               crossOrigin="anonymous" muted></video>
+    
       <!-- Front Back Walls -->
       <a-entity geometry=" primitive: box; depth: 0.1; height: 20; width: 30" position="0 6.5 -10"
          material="shader: standard; color: #000"></a-entity>
